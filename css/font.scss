@@ -1,0 +1,65 @@
+//Heading text
+@font-face {
+    font-family: 'metropolisblack';
+    src: url('../fonts/metropolis-black-webfont.woff2') format('woff2'),
+         url('../fonts/metropolis-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'metropolisbold';
+    src: url('../fonts/metropolis-bold-webfont.woff2') format('woff2'),
+         url('../fonts/metropolis-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+//Body Text
+@font-face {
+    font-family: 'goldplaybold';
+    src: url('../fonts/goldplay-bold-webfont.woff2') format('woff2'),
+         url('../fonts/goldplay-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'goldplaymedium';
+    src: url('../fonts/goldplay-medium-webfont.woff2') format('woff2'),
+         url('../font/goldplay-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'goldplayregular';
+    src: url('../fonts/goldplay-regular-webfont.woff2') format('woff2'),
+         url('../font/goldplay-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'goldplaysemibold';
+    src: url('../fonts/goldplay-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/goldplay-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+$heading-bold: 'metropolisbold';
+$heading-black: 'metropolisblack';
+
+
+$text-regular: 'goldplayregular';
+$text-medium: 'goldplaymedium';
+$text-semibold: 'goldplaysemibold';
+$text-bold: 'goldplaybold';

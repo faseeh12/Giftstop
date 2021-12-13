@@ -1,0 +1,106 @@
+@import 'colors.scss';
+@import 'font.scss';
+@import 'grids.scss';
+
+h1,h2,h3,h4,h5,h6{
+  font-family: $heading-black;
+  color: $red-5;
+}
+button{
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.3s ease-out;
+  &:hover{
+    transition: 0.3s ease-in;
+    box-shadow: 0px 0px 10px 0px $red-5;
+  }
+}
+a{
+  text-decoration: none;
+  color: $link;
+}
+.container{
+  width: 1740px;
+  margin: 0 auto;
+}
+// .owl-dots{
+//   display: none;
+// }
+// .no-js .owl-carousel, .owl-carousel.owl-loaded {
+//   display: grid;
+//   grid-template-columns: 1fr 1fr;
+// }
+.mt-20{
+  margin-top: 1.25rem;
+}
+.mt-30{
+  margin-top: 1.875rem;
+}
+.red-btn{
+  background: $red-5;
+  color: $white;
+}
+.button{
+  padding: 20px 10px;
+  text-align: center;
+}
+body{
+  color: $grey-9;
+  font-family: $text-regular;
+  background: $bg;
+  line-height: 1.5rem;
+  margin: 0;
+  padding: 0;
+  .content{
+    .content-left-side{
+      margin: 0px 70px;
+      .heading{
+        margin: 60px 0px 160px;
+      }
+      .form{
+        margin-top: 80px;
+        .textbox{
+          position: relative;
+          span{
+            position: absolute;
+            top: 0;
+            left: 0;
+            font-family: $text-medium;
+          }
+          .text-input{
+            margin: 30px 0 0;
+            padding: 10px 10px;
+            border-radius: 5px;
+            outline: none;
+            width: 80%;
+          }
+        }
+        .checkbox{
+          .checkbox-input{
+            margin: 0 0 0.625rem 0;
+          }
+        }
+        .su-btn{
+          .button{
+
+          }
+        }
+        .login-link{
+          margin-top: 132px;
+        }
+      }
+    }
+    .image-right-side{
+      background: $white;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img{
+        width: 100%;
+      }
+    }
+  }
+}

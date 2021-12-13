@@ -1,0 +1,192 @@
+@font-face {
+  font-family: 'metropolisblack';
+  src: url("../fonts/metropolis-black-webfont.woff2") format("woff2"), url("../fonts/metropolis-black-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'metropolisbold';
+  src: url("../fonts/metropolis-bold-webfont.woff2") format("woff2"), url("../fonts/metropolis-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'goldplaybold';
+  src: url("../fonts/goldplay-bold-webfont.woff2") format("woff2"), url("../fonts/goldplay-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'goldplaymedium';
+  src: url("../fonts/goldplay-medium-webfont.woff2") format("woff2"), url("../font/goldplay-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'goldplayregular';
+  src: url("../fonts/goldplay-regular-webfont.woff2") format("woff2"), url("../font/goldplay-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'goldplaysemibold';
+  src: url("../fonts/goldplay-semibold-webfont.woff2") format("woff2"), url("../fonts/goldplay-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+}
+
+.align-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.justify-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.col-2 {
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.col-12 {
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "metropolisblack";
+  color: #F33A6A;
+}
+
+button {
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+}
+
+button:hover {
+  -webkit-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
+  -webkit-box-shadow: 0px 0px 10px 0px #F33A6A;
+          box-shadow: 0px 0px 10px 0px #F33A6A;
+}
+
+a {
+  text-decoration: none;
+  color: #0066FF;
+}
+
+.container {
+  width: 1740px;
+  margin: 0 auto;
+}
+
+.mt-20 {
+  margin-top: 1.25rem;
+}
+
+.mt-30 {
+  margin-top: 1.875rem;
+}
+
+.red-btn {
+  background: #F33A6A;
+  color: #ffffff;
+}
+
+.button {
+  padding: 20px 10px;
+  text-align: center;
+}
+
+body {
+  color: #2E302F;
+  font-family: "goldplayregular";
+  background: #F6F7FB;
+  line-height: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+body .content .content-left-side {
+  margin: 0px 70px;
+}
+
+body .content .content-left-side .heading {
+  margin: 60px 0px 160px;
+}
+
+body .content .content-left-side .form {
+  margin-top: 80px;
+}
+
+body .content .content-left-side .form .textbox {
+  position: relative;
+}
+
+body .content .content-left-side .form .textbox span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "goldplaymedium";
+}
+
+body .content .content-left-side .form .textbox .text-input {
+  margin: 30px 0 0;
+  padding: 10px 10px;
+  border-radius: 5px;
+  outline: none;
+  width: 80%;
+}
+
+body .content .content-left-side .form .checkbox .checkbox-input {
+  margin: 0 0 0.625rem 0;
+}
+
+body .content .content-left-side .form .login-link {
+  margin-top: 132px;
+}
+
+body .content .image-right-side {
+  background: #ffffff;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .content .image-right-side img {
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */
