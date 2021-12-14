@@ -42,10 +42,8 @@
             </div>
           </div>
           <div>
-            <div class="textbox">
-              <span>Phone number</span>
-              <input type="text" id="phone" name="phone" type="tel">
-            </div>
+            <span>Phone number</span>
+            <input type="number" id="phone" name="phone" type="tel" placeholder="_ _ - _ _ _ _ _ _">
           </div>
         </div>
 
@@ -53,7 +51,10 @@
           <div>
             <div class="textbox">
               <span>Password</span>
-              <input type="text" class="text-input">
+              <input type="password" class="text-input"  value="FakePSW" id="myInput">
+              <div class="eyebox">
+                <span class="pass-eye" onclick="showPassword()"></span>
+              </div>
             </div>
           </div>
           <div>
@@ -124,35 +125,11 @@
       </div>
     </div>
   </div>
+  <input type="password">
+
 <script src="js/jquery.min.js"></script>
 <script src="js/intlTelInput.js"></script>
 <script src="js/script.js"></script>
 <script src="js/slider.js"></script>
-<script>
-  var input = document.querySelector("#phone");
-  window.intlTelInput(input, {
-    // allowDropdown: false,
-    // autoHideDialCode: false,
-    // autoPlaceholder: "off",
-    // dropdownContainer: document.body,
-    // excludeCountries: ["us"],
-    // formatOnDisplay: false,
-    // geoIpLookup: function(callback) {
-    //   $.get("http://ipinfo.io", function() {}, "jsonp").always(function(resp) {
-    //     var countryCode = (resp && resp.country) ? resp.country : "";
-    //     callback(countryCode);
-    //   });
-    // },
-    // hiddenInput: "full_number",
-    // initialCountry: "auto",
-    // localizedCountries: { 'de': 'Deutschland' },
-    // nationalMode: false,
-    // onlyCountries: ['us', 'gb', 'ch', 'ca', 'do'],
-    // placeholderNumberType: "MOBILE",
-    // preferredCountries: ['cn', 'jp'],
-    // separateDialCode: true,
-    utilsScript: "build/js/utils.js",
-  });
-</script>
 </body>
 </html>

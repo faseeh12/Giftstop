@@ -76,6 +76,20 @@ body{
             outline: none;
             width: 80%;
           }
+          .eyebox{
+            position: absolute;
+            top: 56%;
+            left: 76%;
+            width: 100%;
+            height: 100%;
+            .pass-eye{
+              background-image: url('./../images/icons/eye.svg');
+              background-repeat: no-repeat;
+              background-size: 7%;
+              height:20px;
+              width: 100%;
+            }
+          }
         }
         .checkbox{
           .checkbox-input{
